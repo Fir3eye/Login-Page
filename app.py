@@ -4,7 +4,7 @@ app = Flask(__name__)
 app.secret_key = "supersecretkey"  # For session management
 
 # Dummy user credentials
-USER_DATA = {"username": "admin", "password": "password123"}
+USER_DATA = {"username": "like", "password": "subscribe"}
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
